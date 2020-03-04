@@ -1,0 +1,22 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.spec.js ",
+    "start": "node index.js",
+    "start:watch": "nodemon"
+  },
+  "author": "Aldo Ramos",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^7.1.0",
+    "mongoose": "^5.9.3",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.2",
+    "supertest": "^4.0.2"
+  }
+}
